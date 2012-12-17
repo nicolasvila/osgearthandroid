@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libosgdb_osgearth_model_simple.a  CMakeFiles/osgdb_osgearth_model_simple.dir/SimpleModelSource.cpp.o
+/usr/bin/ranlib ../../../lib/libosgdb_osgearth_model_simple.a

@@ -1,0 +1,42 @@
+<!--
+osgEarth Sample
+Demonstrates use of the "agglite" feature rasterization driver.
+-->
+
+<map name="Geometry Rasterizer Demo" type="round" version="2">
+  
+    <options lighting="false"/>
+
+    <image name="world" driver="gdal">
+        <url>../data/world.tif</url>
+    </image>
+    
+    <image name="world_boundaries" driver="agglite">
+
+        <!-- Configure the OGR feature driver to read the shapefile. -->             
+        <features name="world" driver="ogr">
+            <url>../data/world.shp</url>
+            <build_spatial_index>true</build_spatial_index>
+        </features>
+        
+        <!-- Treat the geometry as lines. -->
+        <geometry_type>line</geometry_type>
+                
+        <!-- This means the "stroke-width" in the style is (approximately) in pixels. -->
+        <relative_line_size>true</relative_line_size>
+        
+        <lod_blending>true</lod_blending>
+                
+        <styles>
+            <style type="text/css">
+                world {
+                   stroke: #ffffff;
+                   stroke-opacity: 1.0;
+                   stroke-width: 0.75;
+                }            
+            </style>
+        </styles>
+        
+    </image>
+  
+</map>

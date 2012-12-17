@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libosgdb_osgearth_yahoo.a  CMakeFiles/osgdb_osgearth_yahoo.dir/ReaderWriterYahoo.cpp.o
+/usr/bin/ranlib ../../../lib/libosgdb_osgearth_yahoo.a

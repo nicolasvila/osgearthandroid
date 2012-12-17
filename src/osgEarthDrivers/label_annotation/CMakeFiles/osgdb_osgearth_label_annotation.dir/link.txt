@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libosgdb_osgearth_label_annotation.a  CMakeFiles/osgdb_osgearth_label_annotation.dir/AnnotationLabelSource.cpp.o
+/usr/bin/ranlib ../../../lib/libosgdb_osgearth_label_annotation.a

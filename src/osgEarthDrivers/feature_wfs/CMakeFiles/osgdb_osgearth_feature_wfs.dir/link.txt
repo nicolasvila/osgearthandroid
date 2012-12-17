@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libosgdb_osgearth_feature_wfs.a  CMakeFiles/osgdb_osgearth_feature_wfs.dir/FeatureSourceWFS.cpp.o
+/usr/bin/ranlib ../../../lib/libosgdb_osgearth_feature_wfs.a

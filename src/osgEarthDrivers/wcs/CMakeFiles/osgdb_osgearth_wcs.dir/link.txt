@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libosgdb_osgearth_wcs.a  CMakeFiles/osgdb_osgearth_wcs.dir/ReaderWriterWCS.cpp.o CMakeFiles/osgdb_osgearth_wcs.dir/WCS11Source.cpp.o
+/usr/bin/ranlib ../../../lib/libosgdb_osgearth_wcs.a
