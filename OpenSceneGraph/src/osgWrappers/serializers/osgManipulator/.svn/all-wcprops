@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator
+END
+ScaleAxisDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/ScaleAxisDragger.cpp
+END
+Scale1DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/Scale1DDragger.cpp
+END
+Scale2DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/Scale2DDragger.cpp
+END
+TranslatePlaneDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TranslatePlaneDragger.cpp
+END
+TabBoxDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TabBoxDragger.cpp
+END
+Dragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/Dragger.cpp
+END
+Translate1DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/Translate1DDragger.cpp
+END
+TranslateAxisDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TranslateAxisDragger.cpp
+END
+Translate2DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/Translate2DDragger.cpp
+END
+TabPlaneDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TabPlaneDragger.cpp
+END
+RotateCylinderDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/RotateCylinderDragger.cpp
+END
+AntiSquish.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/AntiSquish.cpp
+END
+TrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TrackballDragger.cpp
+END
+TabBoxTrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TabBoxTrackballDragger.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/CMakeLists.txt
+END
+CompositeDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/CompositeDragger.cpp
+END
+RotateSphereDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/RotateSphereDragger.cpp
+END
+TabPlaneTrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/TabPlaneTrackballDragger.cpp
+END
+LibraryWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgManipulator/LibraryWrapper.cpp
+END

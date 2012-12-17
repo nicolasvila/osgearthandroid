@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/CMakeLists.txt
+END
+ReaderWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ReaderWriter.cpp
+END
+Input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Input.cpp
+END
+DotOsgWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/DotOsgWrapper.cpp
+END
+ImagePager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ImagePager.cpp
+END
+fstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/fstream.cpp
+END
+SharedStateManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/SharedStateManager.cpp
+END
+FileCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/FileCache.cpp
+END
+DatabaseRevisions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/DatabaseRevisions.cpp
+END
+StreamOperator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/StreamOperator.cpp
+END
+ObjectWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ObjectWrapper.cpp
+END
+DynamicLibrary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/DynamicLibrary.cpp
+END
+OutputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/OutputStream.cpp
+END
+AuthenticationMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/AuthenticationMap.cpp
+END
+Compressors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Compressors.cpp
+END
+Archive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Archive.cpp
+END
+DatabasePager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/DatabasePager.cpp
+END
+Field.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Field.cpp
+END
+PluginQuery.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/PluginQuery.cpp
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Version.cpp
+END
+WriteFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/WriteFile.cpp
+END
+Options.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Options.cpp
+END
+ImageOptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ImageOptions.cpp
+END
+ConvertUTF.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ConvertUTF.cpp
+END
+Output.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Output.cpp
+END
+FileUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/FileUtils.cpp
+END
+FileNameUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/FileNameUtils.cpp
+END
+FieldReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/FieldReader.cpp
+END
+Registry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Registry.cpp
+END
+ReadFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ReadFile.cpp
+END
+InputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/InputStream.cpp
+END
+MimeTypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/MimeTypes.cpp
+END
+XmlParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/XmlParser.cpp
+END
+Callbacks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/Callbacks.cpp
+END
+ExternalFileWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/ExternalFileWriter.cpp
+END
+FieldReaderIterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgDB/FieldReaderIterator.cpp
+END

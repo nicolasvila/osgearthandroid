@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/types.h
+END
+heap_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/heap_array.h
+END
+connectivity_graph.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/connectivity_graph.h
+END
+graph_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/graph_array.h
+END
+policy.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/policy.h
+END
+cache_simulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgUtil/tristripper/include/detail/cache_simulator.h
+END

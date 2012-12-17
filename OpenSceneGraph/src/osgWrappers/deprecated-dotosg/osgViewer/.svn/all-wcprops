@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer
+END
+CompositeViewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer/CompositeViewer.cpp
+END
+LibraryWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer/LibraryWrapper.cpp
+END
+View.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer/View.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer/CMakeLists.txt
+END
+Viewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgViewer/Viewer.cpp
+END

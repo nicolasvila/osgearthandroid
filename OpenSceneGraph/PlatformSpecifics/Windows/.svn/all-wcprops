@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows
+END
+collect_mangled_names.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/collect_mangled_names.js
+END
+OpenSceneGraphVersionInfo.rc.in
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/OpenSceneGraphVersionInfo.rc.in
+END
+VisualStudio_Syntax_Highlighting.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/VisualStudio_Syntax_Highlighting.txt
+END
+collect_mangled_names.bat
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/collect_mangled_names.bat
+END
+osgShell.bat
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/osgShell.bat
+END
+OpenThreadsVersionInfo.rc.in
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/PlatformSpecifics/Windows/OpenThreadsVersionInfo.rc.in
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume
+END
+ImageLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/ImageLayer.cpp
+END
+RayTracedTechnique.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/RayTracedTechnique.cpp
+END
+Property.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/Property.cpp
+END
+VolumeTile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/VolumeTile.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeLists.txt
+END
+TransferFunctionProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/TransferFunctionProperty.cpp
+END
+PropertyAdjustmentCallback.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/PropertyAdjustmentCallback.cpp
+END
+Locator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/Locator.cpp
+END
+LibraryWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/LibraryWrapper.cpp
+END
+SwitchProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/SwitchProperty.cpp
+END
+Volume.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/Volume.cpp
+END
+CompositeProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/CompositeProperty.cpp
+END
+ScalarProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/ScalarProperty.cpp
+END
+FixedFunctionTechnique.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/FixedFunctionTechnique.cpp
+END
+Layer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/deprecated-dotosg/osgVolume/Layer.cpp
+END
