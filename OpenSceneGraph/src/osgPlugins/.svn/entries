@@ -1,296 +1,0 @@
-10
-
-dir
-13259
-http://www.openscenegraph.org/svn/osg/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins
-http://www.openscenegraph.org/svn/osg
-
-
-
-2012-09-06T13:53:58.325308Z
-13134
-robert
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16af8721-9629-0410-8352-f15c8da7e697
-
-OpenFlight
-dir
-
-cfg
-dir
-
-logo
-dir
-
-lwo
-dir
-
-rot
-dir
-
-pov
-dir
-
-terrain
-dir
-
-tgz
-dir
-
-curl
-dir
-
-lws
-dir
-
-gdal
-dir
-
-x
-dir
-
-pdf
-dir
-
-3dc
-dir
-
-view
-dir
-
-obj
-dir
-
-dds
-dir
-
-imageio
-dir
-
-directshow
-dir
-
-hdr
-dir
-
-dxf
-dir
-
-md2
-dir
-
-ive
-dir
-
-shadow
-dir
-
-dae
-dir
-
-3ds
-dir
-
-osga
-dir
-
-dicom
-dir
-
-svg
-dir
-
-vtf
-dir
-
-txf
-dir
-
-ply
-dir
-
-ffmpeg
-dir
-
-pic
-dir
-
-txp
-dir
-
-bmp
-dir
-
-gz
-dir
-
-freetype
-dir
-
-jpeg
-dir
-
-p3d
-dir
-
-ogr
-dir
-
-osg
-dir
-
-nvtt
-dir
-
-quicktime
-dir
-
-QTKit
-dir
-
-zip
-dir
-
-Inventor
-dir
-
-pfb
-dir
-
-dw
-dir
-
-normals
-dir
-
-gta
-dir
-
-mdl
-dir
-
-CMakeLists.txt
-file
-
-
-
-
-2012-12-09T14:58:11.043144Z
-bbd6fcd58e5697f2ff26db84194ce650
-2012-02-17T16:45:49.981485Z
-12984
-robert
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5064
-
-bvh
-dir
-
-fbx
-dir
-
-vrml
-dir
-
-revisions
-dir
-
-ac
-dir
-
-png
-dir
-
-vnc
-dir
-
-tiff
-dir
-
-shp
-dir
-
-pnm
-dir
-
-jp2
-dir
-
-exr
-dir
-
-glsl
-dir
-
-stl
-dir
-
-xine
-dir
-
-gif
-dir
-
-pvr
-dir
-
-rgb
-dir
-
-geo
-dir
-
-tga
-dir
-
-osgtgz
-dir
-
-bsp
-dir
-
-dot
-dir
-
-scale
-dir
-
-qfont
-dir
-
-trans
-dir
-

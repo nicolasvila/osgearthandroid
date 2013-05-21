@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_osgearth_feature_ogr.a  CMakeFiles/osgdb_osgearth_feature_ogr.dir/FeatureSourceOGR.cpp.o CMakeFiles/osgdb_osgearth_feature_ogr.dir/FeatureCursorOGR.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_osgearth_feature_ogr.a

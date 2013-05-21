@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_osgearth_model_feature_geom.a  CMakeFiles/osgdb_osgearth_model_feature_geom.dir/FeatureGeomModelSource.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_osgearth_model_feature_geom.a

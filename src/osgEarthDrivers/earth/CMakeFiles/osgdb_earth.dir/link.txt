@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_earth.a  CMakeFiles/osgdb_earth.dir/ReaderWriterOsgEarth.cpp.o CMakeFiles/osgdb_earth.dir/EarthFileSerializer1.cpp.o CMakeFiles/osgdb_earth.dir/EarthFileSerializer2.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_earth.a

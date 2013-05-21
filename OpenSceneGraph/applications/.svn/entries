@@ -1,80 +1,0 @@
-10
-
-dir
-13259
-http://www.openscenegraph.org/svn/osg/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/applications
-http://www.openscenegraph.org/svn/osg
-
-
-
-2012-05-31T14:45:24.707608Z
-13084
-robert
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16af8721-9629-0410-8352-f15c8da7e697
-
-osgarchive
-dir
-
-osgviewer
-dir
-
-osgfilecache
-dir
-
-CMakeLists.txt
-file
-
-
-
-
-2012-12-09T14:57:53.971358Z
-d44ddaf300c2e05be9c129d0360bf828
-2009-06-20T17:03:38.180482Z
-10378
-robert
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-980
-
-osgconv
-dir
-
-osgversion
-dir
-
-present3D
-dir
-

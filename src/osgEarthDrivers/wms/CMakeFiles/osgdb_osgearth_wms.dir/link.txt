@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_osgearth_wms.a  CMakeFiles/osgdb_osgearth_wms.dir/ReaderWriterWMS.cpp.o CMakeFiles/osgdb_osgearth_wms.dir/TileService.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_osgearth_wms.a

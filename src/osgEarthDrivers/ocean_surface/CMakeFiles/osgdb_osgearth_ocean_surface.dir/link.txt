@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_osgearth_ocean_surface.a  CMakeFiles/osgdb_osgearth_ocean_surface.dir/ElevationProxyImageLayer.cpp.o CMakeFiles/osgdb_osgearth_ocean_surface.dir/OceanCompositor.cpp.o CMakeFiles/osgdb_osgearth_ocean_surface.dir/OceanSurfaceContainer.cpp.o CMakeFiles/osgdb_osgearth_ocean_surface.dir/ReaderWriterOceanSurface.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_osgearth_ocean_surface.a

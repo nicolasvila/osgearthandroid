@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libosgdb_osgearth_feature_tfs.a  CMakeFiles/osgdb_osgearth_feature_tfs.dir/FeatureSourceTFS.cpp.o
-/usr/bin/ranlib ../../../lib/libosgdb_osgearth_feature_tfs.a

@@ -1,8 +1,0 @@
-LOCAL_PATH := $(call my-dir)
-
-JSQLITE_PATH := sqlite-autoconf-3071401
-GEOS_PATH := geos-3.3.5
-PROJ4_PATH := proj
-
-include $(LOCAL_PATH)/proj4.mk
-include $(LOCAL_PATH)/geos-3.3.4.mk
