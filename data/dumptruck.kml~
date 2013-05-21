@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>warehouse_model</name>
+    <visibility>1</visibility>
+    <description><![CDATA[Created with <a href="http://sketchup.google.com/">Google 3D Warehouse 1.0</a>]]></description>
+    <LookAt>
+      <longitude>-8.397234</longitude>
+      <latitude>41.561436</latitude>
+      <altitude>14.85931457150434</altitude>
+      <heading>339.819</heading>
+      <tilt>42.0285</tilt>
+      <range>4.32085008702458</range>
+    </LookAt>
+    <Folder>
+      <name>Tour</name>
+      <Placemark>
+        <name>Camera</name>
+        <visibility>1</visibility>
+        <LookAt>
+          <longitude>-8.397234</longitude>
+          <latitude>41.561436</latitude>
+          <altitude>24.85931457150434</altitude>
+          <heading>339.819</heading>
+          <tilt>42.0285</tilt>
+          <range>4.32085008702458</range>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Model</name>
+      <description/>
+      <Style id="default"/>
+      <Model>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+          <longitude>-8.39753</longitude>
+          <latitude>41.56094</latitude>
+          <altitude>4.8</altitude>
+        </Location>
+        <Orientation>
+          <heading>290.0</heading>
+          <tilt>0</tilt>
+          <roll>0</roll>
+        </Orientation>
+        <Scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </Scale>
+        <Link>
+          <href>/mnt/sdcard/dumptruck.osgt</href>
+        </Link>
+      </Model>
+    </Placemark>
+  </Folder>
+</kml>

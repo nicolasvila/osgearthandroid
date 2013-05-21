@@ -1,0 +1,42 @@
+#include <osgEarth/EntityCache>
+
+#define LC "[EntityCache]"
+
+EntityCache::EntityCache(){
+	_description = std::string("DEFAULT DESCRIPTION");
+}
+
+EntityCache::EntityCache(std::string description){
+	_description = description;
+}
+
+bool EntityCache::insert(std::string key, osg::Node* node){
+	_map.insert( std::pair<std::string, osg::Node*>( key, node) );
+	return true;
+}
+
+osg::Node* EntityCache::get(std::string key){
+	std::map<std::string, osg::Node*>::iterator it;
+
+	it = _map.find(key);
+
+	if(it != _map.end()) return it->second;
+	return NULL;
+}
+
+bool EntityCache::exists(std::string key){
+	if( _map.count(key) > 0 ) return true;
+	return false;
+}
+
+std::string EntityCache::getDescription(){
+	return _description;
+}
+
+int EntityCache::remove(std::string key){
+	return _map.erase(key);
+}
+
+EntityCache::~EntityCache(){
+	_map.~map();
+}

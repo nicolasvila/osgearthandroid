@@ -1,0 +1,23 @@
+#ifndef OSGEARTH_MODELNODEENTITY_H
+#define OSGEARTH_MODELNODEENTITY_H 1
+
+#include <osg/Node>
+
+class EntityCache {
+public:
+	EntityCache();
+	EntityCache(std::string description);
+
+	bool insert(std::string key, osg::Node* node);
+	int remove(std::string key);
+	osg::Node* get(std::string key);
+	bool exists(std::string key);
+
+	virtual ~ EntityCache();
+
+protected:
+	std::string _description;
+	std::map<std::string, osg::Node*> _map;
+};
+
+#endif // OSGEARTH_EntityCache_H

@@ -1,0 +1,23 @@
+#ifndef SCENEGRAPHCHANGES_CLASS_H
+#define SCENEGRAPHCHANGES_CLASS_H
+
+#include <map>
+#include <osg/Node>
+#include <osgEarth/GeoData>
+
+#include "GeoNode"
+
+class SceneGraphChanges : public osg::Referenced{
+	public:
+		SceneGraphChanges();
+		void put(std::string layer, osgEarth::GeoExtent bounds, osg::ref_ptr<osg::Node> node);
+		std::map< std::string, GeoNode* > getMap();
+		bool isIn(osgEarth::GeoExtent bounds);
+
+		~SceneGraphChanges();
+
+	protected:
+		std::map< std::string, GeoNode* > _nodeMap;
+};
+
+#endif

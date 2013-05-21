@@ -1,0 +1,28 @@
+#ifndef KMLNODEINFO_CLASS_H
+#define KMLNODEINFO_CLASS_H
+
+#include <osg/Referenced>
+#include <string>
+#include <osg/Vec3>
+
+class KMLNodeInfo : public osg::Referenced{
+	public:
+		KMLNodeInfo();
+		KMLNodeInfo(std::string layer, std::string id, osg::Vec3 position, std::string description);
+
+		~KMLNodeInfo();
+
+		std::string getLayer();
+		void setLayer(std::string layer);
+		std::string getId();
+		osg::Vec3 getPosition();
+		std::string getDescription();
+
+	protected:
+		std::string _layer;
+		std::string _id;
+		osg::Vec3 _position;
+		std::string _description;
+};
+
+#endif
