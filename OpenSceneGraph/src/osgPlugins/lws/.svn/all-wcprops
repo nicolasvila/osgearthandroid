@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/lws
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/lws/CMakeLists.txt
+END
+SceneLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/lws/SceneLoader.cpp
+END
+ReaderWriterLWS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/lws/ReaderWriterLWS.cpp
+END
+SceneLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/lws/SceneLoader.h
+END

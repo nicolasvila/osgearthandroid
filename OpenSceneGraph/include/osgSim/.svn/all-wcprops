@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim
+END
+ElevationSlice
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ElevationSlice
+END
+SphereSegment
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/SphereSegment
+END
+HeightAboveTerrain
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/HeightAboveTerrain
+END
+LineOfSight
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/LineOfSight
+END
+MultiSwitch
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/MultiSwitch
+END
+Impostor
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/Impostor
+END
+ScalarsToColors
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ScalarsToColors
+END
+LightPoint
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/LightPoint
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/Export
+END
+ShapeAttribute
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ShapeAttribute
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/Version
+END
+LightPointSystem
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/LightPointSystem
+END
+LightPointNode
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/LightPointNode
+END
+OverlayNode
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/OverlayNode
+END
+BlinkSequence
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/BlinkSequence
+END
+ScalarBar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ScalarBar
+END
+ColorRange
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ColorRange
+END
+ObjectRecordData
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ObjectRecordData
+END
+Sector
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/Sector
+END
+GeographicLocation
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/GeographicLocation
+END
+ImpostorSprite
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/ImpostorSprite
+END
+InsertImpostorsVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/InsertImpostorsVisitor
+END
+DOFTransform
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/DOFTransform
+END
+VisibilityGroup
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgSim/VisibilityGroup
+END

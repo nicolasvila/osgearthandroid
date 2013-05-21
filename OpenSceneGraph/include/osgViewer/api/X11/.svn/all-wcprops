@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgViewer/api/X11
+END
+GraphicsWindowX11
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgViewer/api/X11/GraphicsWindowX11
+END
+PixelBufferX11
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgViewer/api/X11/PixelBufferX11
+END
+GraphicsHandleX11
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgViewer/api/X11/GraphicsHandleX11
+END

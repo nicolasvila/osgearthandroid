@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX
+END
+SpecularHighlights.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/SpecularHighlights.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/CMakeLists.txt
+END
+Effect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/Effect.cpp
+END
+MultiTextureControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/MultiTextureControl.cpp
+END
+BumpMapping.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/BumpMapping.cpp
+END
+Outline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/Outline.cpp
+END
+AnisotropicLighting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/AnisotropicLighting.cpp
+END
+Cartoon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/Cartoon.cpp
+END
+LibraryWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/LibraryWrapper.cpp
+END
+Scribe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgFX/Scribe.cpp
+END

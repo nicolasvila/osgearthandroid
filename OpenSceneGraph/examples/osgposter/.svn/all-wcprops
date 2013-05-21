@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgposter
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgposter/CMakeLists.txt
+END
+PosterPrinter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgposter/PosterPrinter.cpp
+END
+PosterPrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgposter/PosterPrinter.h
+END
+osgposter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgposter/osgposter.cpp
+END

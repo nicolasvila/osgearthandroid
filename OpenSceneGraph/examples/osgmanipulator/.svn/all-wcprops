@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgmanipulator
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgmanipulator/CMakeLists.txt
+END
+osgmanipulator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgmanipulator/osgmanipulator.cpp
+END

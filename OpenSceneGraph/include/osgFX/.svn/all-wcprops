@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Export
+END
+Cartoon
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Cartoon
+END
+Technique
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Technique
+END
+Validator
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Validator
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Version
+END
+Scribe
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Scribe
+END
+Registry
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Registry
+END
+SpecularHighlights
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/SpecularHighlights
+END
+Effect
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Effect
+END
+MultiTextureControl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/MultiTextureControl
+END
+BumpMapping
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/BumpMapping
+END
+Outline
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/Outline
+END
+AnisotropicLighting
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgFX/AnisotropicLighting
+END

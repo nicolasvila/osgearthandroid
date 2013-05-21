@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/terrain
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/terrain/CMakeLists.txt
+END
+ReaderWriterOsgTerrain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/terrain/ReaderWriterOsgTerrain.cpp
+END

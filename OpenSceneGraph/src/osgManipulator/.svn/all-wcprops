@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator
+END
+TrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TrackballDragger.cpp
+END
+TabBoxTrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TabBoxTrackballDragger.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/CMakeLists.txt
+END
+RotateSphereDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/RotateSphereDragger.cpp
+END
+TabPlaneTrackballDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TabPlaneTrackballDragger.cpp
+END
+Projector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Projector.cpp
+END
+ScaleAxisDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/ScaleAxisDragger.cpp
+END
+Scale1DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Scale1DDragger.cpp
+END
+Scale2DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Scale2DDragger.cpp
+END
+TranslatePlaneDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TranslatePlaneDragger.cpp
+END
+TabBoxDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TabBoxDragger.cpp
+END
+Dragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Dragger.cpp
+END
+Command.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Command.cpp
+END
+Translate1DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Translate1DDragger.cpp
+END
+TranslateAxisDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TranslateAxisDragger.cpp
+END
+Translate2DDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Translate2DDragger.cpp
+END
+TabPlaneDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/TabPlaneDragger.cpp
+END
+RotateCylinderDragger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/RotateCylinderDragger.cpp
+END
+Constraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Constraint.cpp
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/Version.cpp
+END
+AntiSquish.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgManipulator/AntiSquish.cpp
+END

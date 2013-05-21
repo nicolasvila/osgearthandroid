@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp
+END
+VBSPReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPReader.h
+END
+VBSPData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPData.cpp
+END
+ReaderWriterBSP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/ReaderWriterBSP.cpp
+END
+VBSPEntity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPEntity.cpp
+END
+VBSPData.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPData.h
+END
+ReaderWriterBSP.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/ReaderWriterBSP.h
+END
+Q3BSPReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/Q3BSPReader.cpp
+END
+VBSPEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPEntity.h
+END
+Q3BSPReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/Q3BSPReader.h
+END
+VBSP_README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSP_README.txt
+END
+VBSPGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPGeometry.cpp
+END
+Q3BSPLoad.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/Q3BSPLoad.cpp
+END
+BITSET.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/BITSET.cpp
+END
+VBSPGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPGeometry.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/CMakeLists.txt
+END
+VBSPReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/VBSPReader.cpp
+END
+Q3BSPLoad.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/Q3BSPLoad.h
+END
+BITSET.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/bsp/BITSET.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgAndroidExampleGLES2
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgAndroidExampleGLES2/default.properties
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgAndroidExampleGLES2/proguard.cfg
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osgAndroidExampleGLES2/AndroidManifest.xml
+END

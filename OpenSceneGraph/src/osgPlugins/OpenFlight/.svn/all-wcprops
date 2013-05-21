@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight
+END
+LightSourcePaletteManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/LightSourcePaletteManager.h
+END
+MaterialPaletteManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/MaterialPaletteManager.cpp
+END
+TexturePaletteManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/TexturePaletteManager.cpp
+END
+FltExportVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/FltExportVisitor.h
+END
+Registry.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Registry.h
+END
+Record.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Record.cpp
+END
+Document.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Document.cpp
+END
+RecordInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/RecordInputStream.h
+END
+expControlRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/expControlRecords.cpp
+END
+PaletteRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/PaletteRecords.cpp
+END
+expPrimaryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/expPrimaryRecords.cpp
+END
+Vertex.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Vertex.h
+END
+ReaderWriterATTR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ReaderWriterATTR.cpp
+END
+Pools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Pools.cpp
+END
+VertexPaletteManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/VertexPaletteManager.h
+END
+ExportOptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ExportOptions.cpp
+END
+VertexRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/VertexRecords.cpp
+END
+Opcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Opcodes.h
+END
+LightSourcePaletteManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/LightSourcePaletteManager.cpp
+END
+ControlRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ControlRecords.cpp
+END
+PrimaryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/PrimaryRecords.cpp
+END
+Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Utils.h
+END
+FltExportVisitor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/FltExportVisitor.cpp
+END
+RoadRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/RoadRecords.cpp
+END
+Registry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Registry.cpp
+END
+AttrData.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/AttrData.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Types.h
+END
+RecordInputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/RecordInputStream.cpp
+END
+DataInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/DataInputStream.h
+END
+DataOutputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/DataOutputStream.h
+END
+MaterialPaletteManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/MaterialPaletteManager.h
+END
+Vertex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Vertex.cpp
+END
+GeometryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/GeometryRecords.cpp
+END
+expAncillaryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/expAncillaryRecords.cpp
+END
+TexturePaletteManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/TexturePaletteManager.h
+END
+Record.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Record.h
+END
+Document.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Document.h
+END
+VertexPaletteManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/VertexPaletteManager.cpp
+END
+expGeometryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/expGeometryRecords.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/CMakeLists.txt
+END
+AncillaryRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/AncillaryRecords.cpp
+END
+Pools.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/Pools.h
+END
+ReservedRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ReservedRecords.cpp
+END
+ExportOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ExportOptions.h
+END
+LightPointRecords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/LightPointRecords.cpp
+END
+AttrData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/AttrData.cpp
+END
+FltWriteResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/FltWriteResult.h
+END
+ReaderWriterFLT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/ReaderWriterFLT.cpp
+END
+DataInputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/DataInputStream.cpp
+END
+DataOutputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/OpenFlight/DataOutputStream.cpp
+END

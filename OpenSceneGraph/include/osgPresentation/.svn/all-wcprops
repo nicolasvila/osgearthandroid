@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation
+END
+SlideShowConstructor
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/SlideShowConstructor
+END
+AnimationMaterial
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/AnimationMaterial
+END
+SlideEventHandler
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/SlideEventHandler
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/Export
+END
+CompileSlideCallback
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/CompileSlideCallback
+END
+PickEventHandler
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/include/osgPresentation/PickEventHandler
+END

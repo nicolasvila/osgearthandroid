@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer
+END
+AnimtkViewer
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewer
+END
+AnimtkViewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewer.cpp
+END
+AnimtkViewerGUI
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewerGUI
+END
+AnimtkViewerGUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewerGUI.cpp
+END
+AnimtkViewerKeyHandler
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewerKeyHandler
+END
+AnimtkViewerKeyHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/AnimtkViewerKeyHandler.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osganimationviewer/CMakeLists.txt
+END

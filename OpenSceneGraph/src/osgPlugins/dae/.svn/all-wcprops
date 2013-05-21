@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae
+END
+daeRAnimations.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRAnimations.cpp
+END
+daeWTransforms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWTransforms.cpp
+END
+daeWAnimations.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWAnimations.cpp
+END
+daeRSceneObjects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRSceneObjects.cpp
+END
+scea_shared_source_license.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/scea_shared_source_license.html
+END
+daeWSceneObjects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWSceneObjects.cpp
+END
+ReaderWriterDAE.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/ReaderWriterDAE.cpp
+END
+daeReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeReader.cpp
+END
+daeRSkinning.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRSkinning.cpp
+END
+daeRMaterials.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRMaterials.cpp
+END
+ReaderWriterDAE.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/ReaderWriterDAE.h
+END
+daeReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeReader.h
+END
+daeWMaterials.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWMaterials.cpp
+END
+domSourceReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/domSourceReader.cpp
+END
+daeWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWriter.cpp
+END
+daeRGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRGeometry.cpp
+END
+domSourceReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/domSourceReader.h
+END
+daeRTransforms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeRTransforms.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/README.txt
+END
+daeWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWriter.h
+END
+daeWGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/daeWGeometry.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgPlugins/dae/CMakeLists.txt
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide
+END
+hat.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/hat.h
+END
+GliderManipulator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/GliderManipulator.cpp
+END
+terrain_coords.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/terrain_coords.h
+END
+trees.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/trees.cpp
+END
+terrain_texcoords.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/terrain_texcoords.h
+END
+terrain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/terrain.cpp
+END
+terrain_normals.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/terrain_normals.h
+END
+sky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/sky.cpp
+END
+GliderManipulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/GliderManipulator.h
+END
+base.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/base.cpp
+END
+osghangglide.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/osghangglide.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/CMakeLists.txt
+END
+hat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/hat.cpp
+END
+tank.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/examples/osghangglide/tank.cpp
+END

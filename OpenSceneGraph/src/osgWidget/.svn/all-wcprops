@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget
+END
+Window.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Window.cpp
+END
+Canvas.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Canvas.cpp
+END
+Util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Util.cpp
+END
+Label.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Label.cpp
+END
+Python.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Python.cpp
+END
+Lua.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Lua.cpp
+END
+Browser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Browser.cpp
+END
+Widget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Widget.cpp
+END
+ViewerEventHandlers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/ViewerEventHandlers.cpp
+END
+VncClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/VncClient.cpp
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Version.cpp
+END
+Table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Table.cpp
+END
+Box.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Box.cpp
+END
+Frame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Frame.cpp
+END
+StyleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/StyleManager.cpp
+END
+PdfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/PdfReader.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/CMakeLists.txt
+END
+Input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/Input.cpp
+END
+WindowManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWidget/WindowManager.cpp
+END

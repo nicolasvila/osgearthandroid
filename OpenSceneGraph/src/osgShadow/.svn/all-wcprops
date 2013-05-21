@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow
+END
+ShadowedScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowedScene.cpp
+END
+ParallelSplitShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ParallelSplitShadowMap.cpp
+END
+OccluderGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/OccluderGeometry.cpp
+END
+ShadowVolume.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowVolume.cpp
+END
+ViewDependentShadowTechnique.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ViewDependentShadowTechnique.cpp
+END
+SoftShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/SoftShadowMap.cpp
+END
+ShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowMap.cpp
+END
+MinimalDrawBoundsShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/MinimalDrawBoundsShadowMap.cpp
+END
+MinimalCullBoundsShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/MinimalCullBoundsShadowMap.cpp
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/Version.cpp
+END
+MinimalShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/MinimalShadowMap.cpp
+END
+DebugShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/DebugShadowMap.cpp
+END
+ShadowTechnique.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowTechnique.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/CMakeLists.txt
+END
+LightSpacePerspectiveShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/LightSpacePerspectiveShadowMap.cpp
+END
+StandardShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/StandardShadowMap.cpp
+END
+ViewDependentShadowMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ViewDependentShadowMap.cpp
+END
+ShadowTexture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowTexture.cpp
+END
+ShadowSettings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ShadowSettings.cpp
+END
+ConvexPolyhedron.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgShadow/ConvexPolyhedron.cpp
+END

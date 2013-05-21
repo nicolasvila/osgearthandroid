@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim
+END
+AzimSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/AzimSector.cpp
+END
+ShapeAttributeList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/ShapeAttributeList.cpp
+END
+SequenceGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/SequenceGroup.cpp
+END
+LightPointSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/LightPointSystem.cpp
+END
+OverlayNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/OverlayNode.cpp
+END
+LightPointNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/LightPointNode.cpp
+END
+AzimElevationSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/AzimElevationSector.cpp
+END
+BlinkSequence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/BlinkSequence.cpp
+END
+ScalarBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/ScalarBar.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/CMakeLists.txt
+END
+ObjectRecordData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/ObjectRecordData.cpp
+END
+Sector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/Sector.cpp
+END
+DOFTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/DOFTransform.cpp
+END
+ConeSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/ConeSector.cpp
+END
+VisibilityGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/VisibilityGroup.cpp
+END
+LibraryWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/LibraryWrapper.cpp
+END
+ElevationSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/ElevationSector.cpp
+END
+SphereSegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/SphereSegment.cpp
+END
+MultiSwitch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/MultiSwitch.cpp
+END
+Impostor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/Impostor.cpp
+END
+DirectionalSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/osg/!svn/ver/13139/OpenSceneGraph/tags/OpenSceneGraph-3.1.3/src/osgWrappers/serializers/osgSim/DirectionalSector.cpp
+END
