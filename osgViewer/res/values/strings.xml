@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, osgViewer!</string>
+    <string name="app_name">GloboPTIN</string>
+    <color name="uiControlBar">#BBBBBB</color>
+    <string name="uiButtonLight">Light (ON/OFF)</string>
+    <string name="uiButtonCenter">Center View</string>
+    <string name="uiButtonChangeNavigation">Change Navigation</string>
+    <string name="uiTextEntryText">Write address</string>
+    <string name="uiToastNavPrincipal">Main navigation</string>
+    <string name="uiToastNavSecond">Second Navigation</string>
+    <string name="uiToastLightOn">Light ON</string>
+    <string name="uiToastLightOff">Light OFF</string>
+    <string name="menuMyLocation">My Location</string>
+    <string name="menuMyLocationCondensed">My Location</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuSettingsCondensed">Settings</string>
+    <string name="menuKML">Load KML</string>
+    <string name="menuKMLCondensed">Load KML</string>
+    <string name="menuChangeBackground">Change Background</string>
+    <string name="menuChangeBackgroundCondensed">C.Background</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuExitCondensed">Exit</string>
+    <string name="uiDialogTextChoseRemove">Select Object</string>
+    <string name="uiDialogTextAddress">Write file address</string>
+    <string name="uiDialogOk">Accept</string>
+    <string name="uiDialogCancel">Cancel</string>
+    <string name="uiDialogFile">"Select directory"</string>
+    <string name="noresults">Unable to fullfil request</string>
+    <string name="image_layers">Image Layers</string>
+    <string name="image_layers_preference_title">Image Layer Providers</string>
+    <string name="image_layers_preference_summary">Choose an image layer provider (Note: Some may not work properly)</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_android_developer">Report to us</string>
+    <string name="email_android_developer">diasalmeida.paulo@gmail.com</string>
+    <string name="overlays">Visible Overlays</string>
+    <string name="over_arm_summary">See cabinets locations</string>
+    <string name="over_arm_title">Cabinets</string>
+	<string name="over_pos_summary">See poles locations</string>
+    <string name="over_pos_title">Poles</string>
+    <string name="over_ca_summary">See cables locations</string>
+    <string name="over_ca_title">Cables</string>
+    <string name="location_provider_menu_desc">Please enable a location service</string>
+    <string name="location_provider_menu_settb">Location Services Menu</string>
+    <string name="common_cancelb">Cancel</string>
+    <string name="pt_icon">PT</string>
+</resources>

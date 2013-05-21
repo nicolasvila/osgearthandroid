@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuMyLocation" android:title="@string/menuMyLocation" android:titleCondensed="@string/menuMyLocationCondensed"></item>
+    <item android:id="@+id/menuSettings" android:title="@string/menuSettings" android:titleCondensed="@string/menuSettingsCondensed"></item>
+    <item android:id="@+id/menuKML" android:title="@string/menuKML" android:titleCondensed="@string/menuKMLCondensed"></item>
+    <item android:id="@+id/menuExit" android:title="@string/menuExit" android:titleCondensed="@string/menuExitCondensed"></item>
+</menu>
