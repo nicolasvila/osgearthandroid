@@ -54,6 +54,7 @@ FIND_LIBRARY(${MYLIBRARY}
         ${MYLIBRARYNAME}
     PATHS
         ${OSG_DIR}
+        ${OSG_DIR}/obj/local/armeabi
         $ENV{OSG_BUILD_DIR}
         $ENV{OSG_DIR}
         $ENV{OSGDIR}

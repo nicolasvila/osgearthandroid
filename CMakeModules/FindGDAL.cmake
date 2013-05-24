@@ -33,6 +33,7 @@ FIND_PATH(GDAL_INCLUDE_DIR gdal.h
 
 FIND_PATH(GDAL_INCLUDE_DIR gdal.h
   PATHS
+  ./OpenSceneGraph/3rdparty/gdal/include
   ~/Library/Frameworks/gdal.framework/Headers
   /Library/Frameworks/gdal.framework/Headers
   /usr/local/include/gdal

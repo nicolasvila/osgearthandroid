@@ -5,6 +5,7 @@
 # SQLITE3_INCLUDE_DIR, where to find the headers
 
 FIND_PATH(SQLITE3_INCLUDE_DIR sqlite3.h
+    ./3rdparty/jni/sqlite-autoconf-3071401
     ${SQLITE3_DIR}/include/sqlite
     $ENV{SQLITE3_DIR}/include/sqlite
     $ENV{SQLITE3_DIR}/Source/lib/sqlite #Windows Binary Installer

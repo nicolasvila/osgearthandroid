@@ -12,6 +12,7 @@ FIND_PATH(CURL_INCLUDE_DIR curl.h curl/curl.h
 
 FIND_PATH(CURL_INCLUDE_DIR curl.h curl/curl.h
   PATHS
+  ./OpenSceneGraph/3rdparty/curl/include/curl
   /usr/local/include/curl
   /usr/local/include/CURL
   /usr/local/include
@@ -49,6 +50,7 @@ FIND_LIBRARY(CURL_LIBRARY
 FIND_LIBRARY(CURL_LIBRARY
   NAMES curl CURL curllib libcurl
   PATHS
+    ./OpenSceneGraph/3rdparty/build/curl/obj/local/armeabi
     ~/Library/Frameworks
     /Library/Frameworks
     /usr/local
@@ -59,7 +61,7 @@ FIND_LIBRARY(CURL_LIBRARY
     /opt
     /usr/freeware
     [HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session\ Manager\\Environment;CURL_ROOT]/lib
-  PATH_SUFFIXES lib64 lib
+  PATH_SUFFIXES lib64 lib armeabi
 )
 
 #Find the CURL debug library
