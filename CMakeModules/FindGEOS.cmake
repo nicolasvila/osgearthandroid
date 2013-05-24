@@ -13,6 +13,7 @@ FIND_PATH(GEOS_INCLUDE_DIR geos.h
 
 FIND_PATH(GEOS_INCLUDE_DIR geos.h
   PATHS
+  ./3rdparty/jni/geos-3.3.4/include
   ~/Library/Frameworks/geos/Headers
   /Library/Frameworks/geos/Headers
   /usr/local/include/geos
@@ -47,6 +48,7 @@ FIND_LIBRARY(GEOS_LIBRARY
 FIND_LIBRARY(GEOS_LIBRARY
   NAMES geos
   PATHS
+    ./3rdparty/obj/local/armeabi
     ~/Library/Frameworks
     /Library/Frameworks
     /usr/local
