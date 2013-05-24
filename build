@@ -1,0 +1,12 @@
+- download OSG's pre-built 3rd party libraries for Android
+- run cmake in the OpenSceneGraph directory with the following command: 
+
+cmake . -DOSG_BUILD_PLATFORM_ANDROID=ON -DDYNAMIC_OPENTHREADS=OFF -DDYNAMIC_OPENSCENEGRAPH=OFF -DOSG_GL1_AVAILABLE=OFF -DOSG_GL2_AVAILABLE=OFF -DOSG_GL3_AVAILABLE=OFF -DOSG_GLES1_AVAILABLE=OFF -DOSG_GLES2_AVAILABLE=ON -DOSG_GL_LIBRARY_STATIC=OFF -DOSG_GL_DISPLAYLISTS_AVAILABLE=OFF -DOSG_GL_MATRICES_AVAILABLE=OFF -DOSG_GL_VERTEX_FUNCS_AVAILABLE=OFF -DOSG_GL_VERTEX_ARRAY_FUNCS_AVAILABLE=OFF -DOSG_GL_FIXED_FUNCTION_AVAILABLE=OFF -DANDROID_ABI="armeabi armeabi-v7a" -DANDROID_PLATFORM=8 -DANDROID_STL="gnustl_static" -DJ=4
+
+- make sure that libraries found by build environment are the ones built for Android and run make
+- use ndk-build to compile each of osgEarth's 3rd party libraries
+- run cmake in osgEarth's directory with the following command:
+
+cmake . -DOSG_BUILD_PLATFORM_ANDROID=ON -DJ=4 -DOSG_DIR="/home/paulo/test/osgearthandroid/OpenSceneGraph" -DDYNAMIC_OSGEARTH=OFF -DOPENTHREADS_LIBRARY="./OpenSceneGraph/obj/local/armeabi/libOpenThreads.a" -DCURL_LIBRARY="./OpenSceneGraph/3rdparty/build/curl/obj/local/armeabi/libcurl.a" -DGDAL_LIBRARY="./osgearthandroid/OpenSceneGraph/3rdparty/build/gdal/obj/local/armeabi/libgdal.a" -DGEOS_LIBRARY="./3rdparty/obj/local/armeabi/libgeos.a" -DSQLITE3_INCLUDE_DIR="./3rdparty/jni/sqlite-autoconf-3071401" -DSQLITE3_LIBRARY="./3rdparty/obj/local/armeabi/libsqlite3.a"
+
+- make sure that libraries found by build environment are the ones built for Android and run make
