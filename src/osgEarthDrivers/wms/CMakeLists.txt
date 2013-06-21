@@ -1,9 +1,13 @@
 
 SET(TARGET_SRC
+    GeoNode.cpp
+    SceneGraphChanges.cpp
     ReaderWriterWMS.cpp
     TileService.cpp)
 
 SET(TARGET_H
+    GeoNode
+    SceneGraphChanges
     TileService
     WMSOptions
 )

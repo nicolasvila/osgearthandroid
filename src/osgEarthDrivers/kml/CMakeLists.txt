@@ -54,6 +54,7 @@ SET(TARGET_H
     KML_StyleMap
     KML_StyleSelector
     KMZArchive
+    KMLNodeInfo
 )
 
 SET(TARGET_SRC
@@ -87,6 +88,7 @@ SET(TARGET_SRC
     KML_Style.cpp
     KML_StyleMap.cpp
     KMZArchive.cpp
+    KMLNodeInfo.cpp
 )
     
 SETUP_PLUGIN(kml)

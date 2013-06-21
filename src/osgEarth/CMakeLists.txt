@@ -40,6 +40,7 @@ SET(TARGET_H
     ElevationLayer
     ElevationLOD
     ElevationQuery
+    EntityCache
     Export
     FadeEffect
     FileUtils
@@ -159,6 +160,7 @@ SET(TARGET_SRC
     ElevationLayer.cpp
     ElevationLOD.cpp
     ElevationQuery.cpp
+    EntityCache.cpp
     FadeEffect.cpp
     FileUtils.cpp
     GeoData.cpp
