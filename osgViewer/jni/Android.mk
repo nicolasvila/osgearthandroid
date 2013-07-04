@@ -1,13 +1,19 @@
 LOCAL_PATH := $(call my-dir)
-
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := osgNativeLib
 ### Main Install dir
-OSG_ANDROID_DIR		:= /home/paulo/osgEarthAndroid/osgearth/OpenSceneGraph
-OSGEARTH_ANDROID_DIR	:= /home/paulo/osgEarthAndroid/osgearth
-THIRDPARTY_ANDROID_DIR	:= /home/paulo/osgEarthAndroid/osgearth/OpenSceneGraph/3rdparty/build
-THIRDPARTY_ANDROID_OSGEARTH_DIR := /home/paulo/osgEarthAndroid/osgearth/3rdparty
+# OSGEARTH_ANDROID_DIR		:= /home/jgr/GIS/osgearthandroid
+# THIRDPARTY_ANDROID_OSGEARTH_DIR := /home/jgr/GIS/osgearthandroid/3rdparty
+# OSG_ANDROID_DIR		:= /home/jgr/GIS/osgearthandroid/OpenSceneGraph
+# THIRDPARTY_ANDROID_DIR	:= /home/jgr/GIS/osgearthandroid/OpenSceneGraph/3rdparty/build
+
+$(info value of LOCAL_PATH is: $(LOCAL_PATH))
+OSGEARTH_ANDROID_DIR		:= $(LOCAL_PATH)/../..
+$(info value of OSGEARTH_ANDROID_DIR is: $(OSGEARTH_ANDROID_DIR))
+THIRDPARTY_ANDROID_OSGEARTH_DIR := $(OSGEARTH_ANDROID_DIR)/3rdparty
+OSG_ANDROID_DIR		:= $(OSGEARTH_ANDROID_DIR)/OpenSceneGraph
+THIRDPARTY_ANDROID_DIR	:= $(OSG_ANDROID_DIR)/3rdparty/build
 
 OSG_LIBDIR 			:= $(OSG_ANDROID_DIR)/obj/local/armeabi
 OSGEARTH_LIBDIR 		:= $(OSGEARTH_ANDROID_DIR)/obj/local/armeabi
@@ -37,9 +43,9 @@ endif
 ### Add all source file names to be included in lib separated by a whitespace
 
 LOCAL_C_INCLUDES:= $(OSG_ANDROID_DIR)/include $(OSGEARTH_ANDROID_DIR)/src
-LOCAL_CFLAGS    := -fno-short-enums -DANDROID -DOSGEARTH_LIBRARY_STATIC -fpermissive
+# preventing va_list warnings -Wno-psabi
+LOCAL_CFLAGS    := -fno-short-enums -DANDROID -DOSGEARTH_LIBRARY_STATIC -fpermissive -Wno-psabi
 LOCAL_CPPFLAGS  := -DOSG_LIBRARY_STATIC -DOSGEARTH_LIBRARY_STATIC -DANDROID
-
 LOCAL_LDLIBS    := -llog -lGLESv2 -lz -lgnustl_static -ldl -fuse-ld=gold
 LOCAL_SRC_FILES := osgNativeLib.cpp OsgMainApp.cpp OsgAndroidNotifyHandler.cpp GLES2ShaderGenVisitor.cpp EarthMultiTouchManipulator.cpp GetWorldCoordOfNodeVisitor.cpp DemoScene.cpp ClampObjectLocatorCallback.cpp GeoShapes.cpp GeoCylinder.cpp BoundingBox.cpp SelectiveNodeStateModifier.cpp SceneGraphChangeCallback.cpp PickHandler.cpp osgEarthDemo.cpp
 
