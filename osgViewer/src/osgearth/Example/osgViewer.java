@@ -28,9 +28,9 @@ import android.widget.EditText;
 import osgearth.Common.EGLview;
 import osgearth.Common.osgNativeLib;
 
-public class osgViewer extends Activity implements View.OnKeyListener, OnSharedPreferenceChangeListener {
+public class osgViewer extends Activity implements View.OnKeyListener, OnSharedPreferenceChangeListener
+{
 	public SharedPreferences prefs;
-	public LocationHandler lh;
 	public TreeMap<String, ImageLayer> ilMap;
 	
 	private GVPTApp app;
@@ -111,12 +111,6 @@ public class osgViewer extends Activity implements View.OnKeyListener, OnSharedP
     @Override 
     protected void onResume() {
         super.onResume();
-        
-        if( lh != null && lh.getMenuReturned() ){
-        	lh.setMenuReturned(false);
-        	lh.checkProvider();
-        }
-
         //mView.onResume();
     }
     
@@ -154,15 +148,11 @@ public class osgViewer extends Activity implements View.OnKeyListener, OnSharedP
     //Ui Listeners
     OnClickListener uiListenerCenterView = new OnClickListener() {
         public void onClick(View v) {
-        	//Log.d(TAG, "Center View");
         	osgNativeLib.keyboardDown(32);
         	osgNativeLib.keyboardUp(32);
         }
     };
 
-    //Menu
-    
-    //Android Life Cycle Menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -175,13 +165,11 @@ public class osgViewer extends Activity implements View.OnKeyListener, OnSharedP
         // Handle item selection
         switch (item.getItemId()) {
 	        case R.id.menuMyLocation:
-	        	this.lh = new LocationHandler(this);
 	            return true;
 	        case R.id.menuSettings:
 	        	this.startActivity(new Intent(this, SettingsActivity.class));
 	            return true;
 	        case R.id.menuKML:
-	        	//this.loadLayerAddress.show();
 	        	File mPath = new File(Environment.getExternalStorageDirectory() + "//DIR//");
 	        	fileDialog = new FileBrowser(this, mPath, ".kml");
 	            fileDialog.addFileListener(new FileBrowser.FileSelectedListener() {
@@ -190,12 +178,6 @@ public class osgViewer extends Activity implements View.OnKeyListener, OnSharedP
 	                    osgNativeLib.loadModel(file.toString());
 	                }
 	            });
-	            //fileDialog.addDirectoryListener(new FileDialog.DirectorySelectedListener() {
-	            //  public void directorySelected(File directory) {
-	            //      Log.d(getClass().getName(), "selected dir " + directory.toString());
-	            //  }
-	            //});
-	            //fileDialog.setSelectDirectoryOption(false);
 	            fileDialog.showDialog();
 	        	return true;
 	        case R.id.menuExit:

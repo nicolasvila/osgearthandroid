@@ -6,7 +6,6 @@ import java.util.Date;
 
 import layers.ImageLayer;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -64,7 +63,7 @@ public class SettingsActivity extends PreferenceActivity {
 	}
 	
 	public ArrayList<CharSequence> getAvailableLayers(){
-		//async task to get JSON with available layers
+		// TODO async task to get JSON with available layers
 		ArrayList<ImageLayer> imga = new ArrayList<ImageLayer>();
 		ArrayList<CharSequence> res = new ArrayList<CharSequence>();
 		

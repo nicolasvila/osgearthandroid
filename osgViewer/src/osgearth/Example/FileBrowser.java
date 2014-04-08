@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-
 import osgearth.Example.ListenerList.FireHandler;
 
 import android.app.Activity;
