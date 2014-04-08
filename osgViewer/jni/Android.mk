@@ -45,9 +45,9 @@ LOCAL_CFLAGS    :=	-fno-short-enums -DANDROID -DOSGEARTH_LIBRARY_STATIC -fpermis
 LOCAL_CPPFLAGS  :=	-DOSG_LIBRARY_STATIC -DOSGEARTH_LIBRARY_STATIC -DANDROID
 LOCAL_LDLIBS    :=	-llog -lGLESv2 -lz -lgnustl_static -ldl -fuse-ld=gold
 LOCAL_SRC_FILES :=	osgNativeLib.cpp OsgMainApp.cpp OsgAndroidNotifyHandler.cpp \
-					GLES2ShaderGenVisitor.cpp EarthMultiTouchManipulator.cpp GetWorldCoordOfNodeVisitor.cpp \
-					DemoScene.cpp ClampObjectLocatorCallback.cpp GeoShapes.cpp GeoCylinder.cpp BoundingBox.cpp \
-					SelectiveNodeStateModifier.cpp SceneGraphChangeCallback.cpp PickHandler.cpp osgEarthDemo.cpp
+					GLES2ShaderGenVisitor.cpp EarthMultiTouchManipulator.cpp \
+					DemoScene.cpp SceneGraphChangeCallback.cpp \
+					PickHandler.cpp osgEarthDemo.cpp
 
 LOCAL_LDFLAGS   := -L $(OSGEARTH_LIBDIR) \
 -losgdb_kml \

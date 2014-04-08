@@ -1,5 +1,4 @@
 #include "PickHandler.h"
-#include "BoundingBox.h"
 
 #include <osgViewer/Viewer>
 
@@ -21,7 +20,6 @@
 #include <osg/BoundingSphere>
 #include <osg/CopyOp>
 
-#include "SelectiveNodeStateModifier.h"
 #include <jni.h>
 
 
@@ -55,7 +53,8 @@ bool PickHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdap
 						OE_WARN << "[PickHandler]\tJNI getClass error." << std::endl;
 						return true;
 					}
-					jmethodID method = _genv->GetStaticMethodID(clazz, "displayInfo", "(Ljava/lang/String;Ljava/lang/String;DDLjava/lang/String;)V");
+					jmethodID method = _genv->GetStaticMethodID(clazz, "displayInfo",
+							"(Ljava/lang/String;Ljava/lang/String;DDLjava/lang/String;)V");
 					if (!method) {
 						OE_WARN << "[PickHandler]\tJNI getMethod error." << std::endl;
 						return true;

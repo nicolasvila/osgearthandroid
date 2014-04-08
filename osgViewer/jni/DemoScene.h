@@ -1,19 +1,13 @@
-//
-//  DemoScene.h
-//  osgearthDemos
-//
-//
-
 #pragma once
 
 #include "osgPlugins.h"
+
 #include <osgViewer/Viewer>
 
-//
 #include <osgDB/FileUtils>
 
-
 #include <osgEarth/Viewpoint>
+
 #include <osgEarthUtil/EarthManipulator>
 #include <osgEarthUtil/AutoClipPlaneHandler>
 #include <osgEarthUtil/ObjectLocator>
@@ -28,8 +22,6 @@
 #include "GLES2ShaderGenVisitor.h"
 
 #include <jni.h>
-
-//
 
 #ifndef ANDROID
 #import <UIKit/UIKit.h>//to acces app delegate

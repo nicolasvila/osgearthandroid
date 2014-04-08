@@ -87,7 +87,8 @@ void OsgMainApp::touchPosition(int touchid,float x,float y){
 void OsgMainApp::touchBeganEvent(int touchid,float x,float y){
     if (!_frameTouchBeganEvents.valid()) {
         if(_scene->getViewer()){
-            _frameTouchBeganEvents = _scene->getViewer()->getEventQueue()->touchBegan(touchid, osgGA::GUIEventAdapter::TOUCH_BEGAN, x, flipy ? _bufferHeight-y : y);
+            _frameTouchBeganEvents = _scene->getViewer()->getEventQueue()->touchBegan(touchid,
+            		osgGA::GUIEventAdapter::TOUCH_BEGAN, x, flipy ? _bufferHeight-y : y);
         }
     } else {
         _frameTouchBeganEvents->addTouchPoint(touchid, osgGA::GUIEventAdapter::TOUCH_BEGAN, x, flipy ? _bufferHeight-y : y);
@@ -96,7 +97,8 @@ void OsgMainApp::touchBeganEvent(int touchid,float x,float y){
 void OsgMainApp::touchMovedEvent(int touchid,float x,float y){
     if (!_frameTouchMovedEvents.valid()) {
         if(_scene->getViewer()){
-            _frameTouchMovedEvents = _scene->getViewer()->getEventQueue()->touchMoved(touchid, osgGA::GUIEventAdapter::TOUCH_MOVED, x, flipy ? _bufferHeight-y : y);
+            _frameTouchMovedEvents = _scene->getViewer()->getEventQueue()->touchMoved(touchid,
+            		osgGA::GUIEventAdapter::TOUCH_MOVED, x, flipy ? _bufferHeight-y : y);
         }
     } else {
         _frameTouchMovedEvents->addTouchPoint(touchid, osgGA::GUIEventAdapter::TOUCH_MOVED, x, flipy ? _bufferHeight-y : y);
@@ -105,7 +107,8 @@ void OsgMainApp::touchMovedEvent(int touchid,float x,float y){
 void OsgMainApp::touchEndedEvent(int touchid,float x,float y,int tapcount){
     if (!_frameTouchEndedEvents.valid()) {
         if(_scene->getViewer()){
-            _frameTouchEndedEvents = _scene->getViewer()->getEventQueue()->touchEnded(touchid, osgGA::GUIEventAdapter::TOUCH_ENDED, x, flipy ? _bufferHeight-y : y,tapcount);
+            _frameTouchEndedEvents = _scene->getViewer()->getEventQueue()->touchEnded(touchid,
+            		osgGA::GUIEventAdapter::TOUCH_ENDED, x, flipy ? _bufferHeight-y : y,tapcount);
         }
     } else {
         _frameTouchEndedEvents->addTouchPoint(touchid, osgGA::GUIEventAdapter::TOUCH_ENDED, x, flipy ? _bufferHeight-y : y,tapcount);

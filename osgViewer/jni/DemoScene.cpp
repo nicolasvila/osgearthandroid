@@ -1,20 +1,14 @@
-//
-//  DemoScene.cpp
-//  osgearthDemos
-//
-
 #include "DemoScene.h"
-#include "GetWorldCoordOfNodeVisitor.h"
-#include <osgEarthUtil/ObjectLocator>
+
 #include <osgDB/Registry>
 
 #include <osgEarthDrivers/wms/WMSOptions>
 #include <osgEarthDrivers/tms/TMSOptions>
 #include <osgEarthDrivers/xyz/XYZOptions>
-
 #include <osgEarthDrivers/kml/KMLNodeInfo>
 
 #include <osgEarth/ImageLayer>
+
 #include <cmath>
 
 #ifndef ANDROID
@@ -65,13 +59,19 @@ void DemoScene::addModel(std::string address){
 	}
 }
 
-void DemoScene::setBaseLayerWMS(std::string url){
+void DemoScene::setBaseLayerWMS(std::string url)
+{
 	osgEarth::Util::MapNode* mapNode = this->getMapNode();
-	if(mapNode){
+
+	if( mapNode )
+	{
 		osgEarth::ImageLayerVector layers;
 		mapNode->getMap()->getImageLayers(layers);
-		for(osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it){
-			if( ((*it)->getTerrainLayerRuntimeOptions().name()).compare("BASE") == 0 ) mapNode->getMap()->removeImageLayer( (*it).get() );
+
+		for( osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it )
+		{
+			if( ((*it)->getTerrainLayerRuntimeOptions().name()).compare("BASE") == 0 )
+				mapNode->getMap()->removeImageLayer( (*it).get() );
 		}
 
 		osgEarth::Drivers::WMSOptions wms;
@@ -85,12 +85,17 @@ void DemoScene::setBaseLayerWMS(std::string url){
 	}
 }
 
-void DemoScene::setBaseLayerTMS(std::string url){
+void DemoScene::setBaseLayerTMS( std::string url )
+{
 	osgEarth::Util::MapNode* mapNode = this->getMapNode();
-	if(mapNode){
+
+	if( mapNode )
+	{
 		osgEarth::ImageLayerVector layers;
 		mapNode->getMap()->getImageLayers(layers);
-		for(osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it){
+
+		for( osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it )
+		{
 			OE_NOTICE << "DEBUG: " << (*it)->getTerrainLayerRuntimeOptions().name() << std::endl;
 			if( ((*it)->getTerrainLayerRuntimeOptions().name()).compare("BASE") == 0 )
 				mapNode->getMap()->removeImageLayer( (*it).get() );
@@ -107,12 +112,17 @@ void DemoScene::setBaseLayerTMS(std::string url){
 	}
 }
 
-void DemoScene::setBaseLayerXYZ(std::string url){
+void DemoScene::setBaseLayerXYZ(std::string url)
+{
 	osgEarth::Util::MapNode* mapNode = this->getMapNode();
-	if(mapNode){
+
+	if( mapNode )
+	{
 		osgEarth::ImageLayerVector layers;
 		mapNode->getMap()->getImageLayers(layers);
-		for(osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it){
+
+		for( osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it )
+		{
 			OE_NOTICE << "DEBUG: " << (*it)->getTerrainLayerRuntimeOptions().name() << std::endl;
 			if( ((*it)->getTerrainLayerRuntimeOptions().name()).compare("BASE") == 0 )
 				mapNode->getMap()->removeImageLayer( (*it).get() );
@@ -130,13 +140,18 @@ void DemoScene::setBaseLayerXYZ(std::string url){
 	}
 }
 
-void DemoScene::removeLayer(std::string name){
+void DemoScene::removeLayer( std::string name )
+{
 	OE_NOTICE <<"DEBUG: addLayer->" << name << std::endl;
 	osgEarth::Util::MapNode* mapNode = this->getMapNode();
-	if(mapNode){
+
+	if( mapNode )
+	{
 		osgEarth::ImageLayerVector layers;
 		mapNode->getMap()->getImageLayers(layers);
-		for(osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it){
+
+		for( osgEarth::ImageLayerVector::const_iterator it = layers.begin(); it != layers.end(); ++it )
+		{
 			OE_NOTICE << "DEBUG: " << (*it)->getTerrainLayerRuntimeOptions().name() << std::endl;
 			if( ((*it)->getTerrainLayerRuntimeOptions().name()).compare(name) == 0 )
 				mapNode->getMap()->removeImageLayer( (*it).get() );
@@ -145,7 +160,8 @@ void DemoScene::removeLayer(std::string name){
 	}
 }
 
-void DemoScene::addLayer(std::string url, std::string layer, std::string style, int minLevel){
+void DemoScene::addLayer( std::string url, std::string layer, std::string style, int minLevel )
+{
 	OE_NOTICE << "DEBUG: addLayer->" << layer << std::endl;
     osgEarth::Drivers::WMSOptions wms;
     wms.url() = url;
@@ -165,37 +181,28 @@ void DemoScene::addLayer(std::string url, std::string layer, std::string style, 
     _mapNode->getMap()->addImageLayer( newlayer );
 }
 
-void DemoScene::onMove(float x, float y){
-	osgEarth::Util::EarthManipulator* manip = dynamic_cast<osgEarth::Util::EarthManipulator*>(_viewer->getCameraManipulator());
-	if(manip){
-		OE_WARN << "DEBUG: screen -> " << x << ";" << y  << std::endl;
+void DemoScene::onMove( float x, float y )
+{
+	osgEarth::Util::EarthManipulator* manip =
+			dynamic_cast<osgEarth::Util::EarthManipulator*>(_viewer->getCameraManipulator());
+
+	if( manip )
+	{
 		osg::Vec3d out;
 		bool valid = manip->screenToWorld(x, y, _viewer, out );
-		OE_WARN << "DEBUG: world -> " << out.x() << ";" << out.y() << ";" << out.z() << std::endl;
-		if(valid){
+
+		if( valid )
+		{
 			osgEarth::Util::MapNode* mapNode = this->getMapNode();
 			osg::Vec3d outll;
 			mapNode->getMap()->getSRS()->transformFromWorld(out, outll);
-			OE_WARN << "DEBUG: coordinates -> " << outll.x() << ";" << outll.y() << ";" << outll.z() << std::endl;
-			if(abs(outll.z()) < 500){
+
+			if( abs(outll.z()) < 500 )
+			{
 				_changesQueue->onMove( outll, 2000, mapNode->getMap()->getSRS() );
 			}
 		}
 	}
-}
-
-osg::Matrixd* DemoScene::getWorldCoords( osg::Node* node )
-{
-	GetWorldCoordOfNodeVisitor* ncv = new GetWorldCoordOfNodeVisitor();
-   if( node && ncv )
-   {
-	   node->accept( *ncv );
-      return ncv->giveUpDaMat();
-   }
-   else
-   {
-	   return NULL;
-   }
 }
 
 void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
@@ -213,7 +220,6 @@ void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
     osgEarth::Registry::instance()->setDefaultTerrainEngineDriverName("mp");
 	//osgEarth::Registry::instance()->setCapabilities(new osgEarth::AndroidCapabilities());
 
-    
     //create the viewer
 	_viewer = new osgViewer::Viewer();
     
@@ -241,7 +247,8 @@ void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
 	traits->sharedContext = 0;
 	traits->setInheritedWindowPixelFormat = true;
     
-	osg::ref_ptr<osg::Referenced> windata = new osgViewer::GraphicsWindowIOS::WindowData(view, osgViewer::GraphicsWindowIOS::WindowData::PORTRAIT_ORIENTATION, scale);
+	osg::ref_ptr<osg::Referenced> windata = new osgViewer::GraphicsWindowIOS::WindowData( view,
+			osgViewer::GraphicsWindowIOS::WindowData::PORTRAIT_ORIENTATION, scale);
 	traits->inheritedWindowData = windata;
     
 	// Create the Graphics Context
@@ -263,8 +270,7 @@ void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
     //_viewer->getCamera()->setComputeNearFarMode(osg::CullSettings::COMPUTE_NEAR_FAR_USING_PRIMITIVES);
     _viewer->getCamera()->setProjectionMatrixAsPerspective(45.0f,(float)viewSize.x()/viewSize.y(),
                                                            0.1, 1000.0);
-    
-    //
+
     _viewer->getEventQueue()->getCurrentEventState()->setMouseYOrientation(osgGA::GUIEventAdapter::Y_INCREASING_UPWARDS);
     
     // configure the near/far so we don't clip things that are up close

@@ -1,9 +1,10 @@
 #ifndef PICKHANDLER_CLASS_H
 #define PICKHANDLER_CLASS_H
 
-#include <osgEarth/Pickers>
 #include <osg/Node>
 #include <osgViewer/Viewer>
+
+#include <osgEarth/Pickers>
 
 #include <jni.h>
 
