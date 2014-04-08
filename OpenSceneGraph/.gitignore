@@ -1,0 +1,5 @@
+# 3rd party libs
+3rdparty/
+
+# local build files
+build/

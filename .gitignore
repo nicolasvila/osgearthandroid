@@ -1,0 +1,23 @@
+# 3rd party libs
+3rdparty/obj/
+
+#local build files
+build/
+
+# android app generated files
+osgViewer/libs
+osgViewer/obj
+osgViewer/bin
+osgViewer/gen
+
+*.cache
+*.class
+*.apk
+*.ap_
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
