@@ -44,7 +44,7 @@ extern "C" {
 
 JNIEXPORT void JNICALL Java_osgearth_Common_osgNativeLib_init(JNIEnv * env, jobject obj, jint width, jint height){
 	jobject jo = env->NewGlobalRef(obj);
-	mainApp.setGlobalJObj(obj);
+	mainApp.setGlobalJObj(jo);
 	mainApp.setJavaEnv(env);
     mainApp.initOsgWindow(0,0,width,height);
 }

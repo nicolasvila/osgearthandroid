@@ -3,7 +3,7 @@
       android:installLocation="auto"
       android:versionCode="1"
       android:versionName="1.0">
-    <uses-sdk android:targetSdkVersion="10" android:minSdkVersion="10"></uses-sdk>
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="10"></uses-sdk>
     <uses-feature android:glEsVersion="0x00020000"/> <!-- OpenGL minimum requirements (2.0) -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -12,8 +12,8 @@
     <application 
         android:name=".GVPTApp"
         android:label="@string/app_name" 
-        android:icon="@drawable/pt" 
-        android:debuggable="true">
+        android:icon="@drawable/pt"
+        android:allowBackup="true">
         <activity android:name=".osgViewer"
                   android:label="@string/app_name" android:screenOrientation="portrait"> <!--  Force screen to landscape -->
             <intent-filter>

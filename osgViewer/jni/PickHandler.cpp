@@ -22,48 +22,56 @@
 
 #include <jni.h>
 
-
-PickHandler::PickHandler(osg::ref_ptr<osg::Node> root, JNIEnv * env, jobject gjo, osgViewer::Viewer* viewer){
+PickHandler::PickHandler( osg::ref_ptr<osg::Node> root, JNIEnv * env, jobject gjo, osgViewer::Viewer* viewer )
+{
 	_root = root;
 	_genv = env;
 	_gjo = gjo;
 	_viewer = viewer;
 }
 
-bool PickHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdapter& aa ){
-	if (	ea.getEventType()!=osgGA::GUIEventAdapter::RELEASE ||
-			ea.getButton()!=osgGA::GUIEventAdapter::LEFT_MOUSE_BUTTON||
+bool PickHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdapter& aa )
+{
+	if(	ea.getEventType()!=osgGA::GUIEventAdapter::RELEASE ||
+			ea.getButton()!=osgGA::GUIEventAdapter::LEFT_MOUSE_BUTTON ||
 			!(ea.getModKeyMask()&osgGA::GUIEventAdapter::MODKEY_CTRL))	return false;
 
 	OE_NOTICE << "We're picking" << std::endl;
 	osgViewer::Viewer* viewer = dynamic_cast<osgViewer::Viewer*>(&aa);
 
-	if ( viewer ){
+	if( viewer )
+	{
 		float x = ea.getX();
 		float y = ea.getY();
 		osgEarth::Picker picker(viewer, _root);
 		osgEarth::Picker::Hits hits;
 
-		if (picker.pick(x, y, hits)){
-			for(osgEarth::Picker::Hits::const_iterator h = hits.begin(); h != hits.end(); ++h){
+		if( picker.pick(x, y, hits) )
+		{
+			for( osgEarth::Picker::Hits::const_iterator h = hits.begin(); h != hits.end(); ++h )
+			{
 				osgEarth::Util::ObjectLocatorNode* geo = picker.getNode<osgEarth::Util::ObjectLocatorNode>(*h);
-				if(geo && geo->getNodeInfo()){
+				if( geo && geo->getNodeInfo() )
+				{
 					jclass clazz = _genv->FindClass("osgearth/Common/osgNativeLib");
-					if (!clazz) {
+					if( !clazz )
+					{
 						OE_WARN << "[PickHandler]\tJNI getClass error." << std::endl;
 						return true;
 					}
 					jmethodID method = _genv->GetStaticMethodID(clazz, "displayInfo",
 							"(Ljava/lang/String;Ljava/lang/String;DDLjava/lang/String;)V");
-					if (!method) {
+					if( !method )
+					{
 						OE_WARN << "[PickHandler]\tJNI getMethod error." << std::endl;
 						return true;
 					}
+
 					jstring layer = _genv->NewStringUTF(geo->getNodeInfo()->getLayer().c_str());
 					jstring id = _genv->NewStringUTF(geo->getNodeInfo()->getId().c_str());
 					jstring description = _genv->NewStringUTF(geo->getNodeInfo()->getDescription().c_str());
-					_genv->CallStaticVoidMethod( _gjo, method, layer, id, geo->getLocator()->getPosition().y(),
-							geo->getLocator()->getPosition().x(), description );
+
+					_genv->CallStaticVoidMethod( _gjo, method, layer, id, geo->getLocator()->getPosition().y(), geo->getLocator()->getPosition().x(), description );
 
 					return true;
 				}
@@ -71,5 +79,6 @@ bool PickHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdap
 		}
 	}
 	else OE_NOTICE << "Unable to find viewer" << std::endl;
+
 	return false;
 }

@@ -215,8 +215,8 @@ void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
     osg::setNotifyLevel(osg::INFO);
     osgEarth::setNotifyLevel(osg::INFO);
 
+    osgDB::Registry::instance()->addFileExtensionAlias("w3ds", "wms");
     osgDB::Registry::instance()->addMimeTypeExtensionMapping("vnd.google-earth.kml+xml", "kml");
-    //osgEarth::Registry::instance()->setDefaultTerrainEngineDriverName("quadtree");
     osgEarth::Registry::instance()->setDefaultTerrainEngineDriverName("mp");
 	//osgEarth::Registry::instance()->setCapabilities(new osgEarth::AndroidCapabilities());
 
@@ -248,7 +248,7 @@ void DemoScene::init(const std::string& file, osg::Vec2 viewSize, UIView* view)
 	traits->setInheritedWindowPixelFormat = true;
     
 	osg::ref_ptr<osg::Referenced> windata = new osgViewer::GraphicsWindowIOS::WindowData( view,
-			osgViewer::GraphicsWindowIOS::WindowData::PORTRAIT_ORIENTATION, scale);
+			osgViewer::GraphicsWindowIOS::WindowData::PORTRAIT_ORIENTATION, scale );
 	traits->inheritedWindowData = windata;
     
 	// Create the Graphics Context

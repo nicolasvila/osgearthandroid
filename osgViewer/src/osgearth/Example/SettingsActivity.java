@@ -14,14 +14,16 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
-public class SettingsActivity extends PreferenceActivity {
+public class SettingsActivity extends PreferenceActivity
+{
 	private ListPreference imageLayers;
 	private Preference providerFeedbackButton;
 
 	private GVPTApp app;
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState)
+	{
 		super.onCreate(savedInstanceState);
 		
 		app = (GVPTApp) getApplication();
@@ -37,11 +39,13 @@ public class SettingsActivity extends PreferenceActivity {
 		imageLayers.setEntryValues(names.toArray(new CharSequence[names.size()]));
 		imageLayers.setDefaultValue(names.get(0));
 
-		providerFeedbackButton = (Preference)findPreference(GVPTApp.PREFERENCE_KEY_FEEDBACK);
+		providerFeedbackButton = (Preference) findPreference(GVPTApp.PREFERENCE_KEY_FEEDBACK);
 		providerFeedbackButton.setOnPreferenceClickListener(
-					new Preference.OnPreferenceClickListener() {
+					new Preference.OnPreferenceClickListener()
+					{
 						@Override
-						public boolean onPreferenceClick(Preference arg0) {
+						public boolean onPreferenceClick(Preference arg0)
+						{
 							String recipient = getString(R.string.email_android_developer);
 	        	
 							String uriText = "mailto:"+recipient;
@@ -62,7 +66,8 @@ public class SettingsActivity extends PreferenceActivity {
 					});
 	}
 	
-	public ArrayList<CharSequence> getAvailableLayers(){
+	public ArrayList<CharSequence> getAvailableLayers()
+	{
 		// TODO async task to get JSON with available layers
 		ArrayList<ImageLayer> imga = new ArrayList<ImageLayer>();
 		ArrayList<CharSequence> res = new ArrayList<CharSequence>();

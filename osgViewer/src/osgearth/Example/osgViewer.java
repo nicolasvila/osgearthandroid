@@ -206,45 +206,62 @@ public class osgViewer extends Activity implements View.OnKeyListener, OnSharedP
     }
 
 	@Override
-	public void onSharedPreferenceChanged(SharedPreferences sharedPrefs, String key) {
-		if (key == null) return;
-		if( key.equals(GVPTApp.PREFERENCE_KEY_IMAGE_LAYERS) ){
+	public void onSharedPreferenceChanged(SharedPreferences sharedPrefs, String key)
+	{
+		if( key == null ) return;
+		
+		if( key.equals(GVPTApp.PREFERENCE_KEY_IMAGE_LAYERS) )
+		{
 			ImageLayer il = app.ilMap.get(prefs.getString(GVPTApp.PREFERENCE_KEY_IMAGE_LAYERS, ""));
-			if(il != null){
-				if(il.getDriver().equals("wms"))
+			if( il != null )
+			{
+				if( il.getDriver().equals("wms") )
 					osgNativeLib.setBaseLayerWMS(il.getUrl());
-				if(il.getDriver().equals("tms"))
+				if( il.getDriver().equals("tms") )
 					osgNativeLib.setBaseLayerTMS(il.getUrl());
-				if(il.getDriver().equals("xyz"))
+				if( il.getDriver().equals("xyz") )
 					osgNativeLib.setBaseLayerXYZ(il.getUrl());
 			}
 			System.out.println("change image layer to " + prefs.getString(GVPTApp.PREFERENCE_KEY_IMAGE_LAYERS, ""));
 		}
-		if( key.equals(GVPTApp.PREFERENCE_KEY_POSTES) ){
-			if(prefs.getBoolean("over_pos", false)){
+		
+		if( key.equals(GVPTApp.PREFERENCE_KEY_POSTES) )
+		{
+			if( prefs.getBoolean("over_pos", false) )
+			{
 				osgNativeLib.addLayer("http://webgis.di.uminho.pt:8080/geoserver2/sig3d/wms", 
 						"sig3d:SIG3D_POSTES", "osg_poste", 14);
-			} else{
+			}
+			else
+			{
 				osgNativeLib.removeLayer("sig3d:SIG3D_POSTES");
 			}
 			app.activeOverlays.put("over_pos", prefs.getBoolean("over_pos", false));
 		}
 			
-		if( key.equals(GVPTApp.PREFERENCE_KEY_ARMARIOS) ){
-			if(prefs.getBoolean("over_arm", false)){
+		if( key.equals(GVPTApp.PREFERENCE_KEY_ARMARIOS) )
+		{
+			if( prefs.getBoolean("over_arm", false) )
+			{
 				osgNativeLib.addLayer("http://webgis.di.uminho.pt:8080/geoserver2/sig3d/wms", 
 						"sig3d:SIG3D_ARMARIOS", "osg_armario", 14);
-			} else{
+			}
+			else
+			{
 				osgNativeLib.removeLayer("sig3d:SIG3D_ARMARIOS");
 			}
 			app.activeOverlays.put("over_arm", prefs.getBoolean("over_arm", false));
 		}
 			
-		if( key.equals(GVPTApp.PREFERENCE_KEY_CABOSA) ){
-			if(prefs.getBoolean("over_ca", false)){
+		if( key.equals(GVPTApp.PREFERENCE_KEY_CABOSA) )
+		{
+			if (prefs.getBoolean("over_ca", false) )
+			{
 				osgNativeLib.addLayer("http://webgis.di.uminho.pt:8080/geoserver2/sig3d/wms", 
 						"sig3d:SIG3D_TAEREOS", "", 14);
-			} else{
+			}
+			else
+			{
 				osgNativeLib.removeLayer("sig3d:SIG3D_TAEREOS");
 			}
 			app.activeOverlays.put("over_ca", prefs.getBoolean("over_ca", false));
